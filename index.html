@@ -4,12 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Aqyryn Soile </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" type="image/png" href="images/icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://www.youtube.com/@izbasarmamyrov400">
+   <img src="images/icon.png" width="30" height="30" alt="">
+   Aqyryn Soile
+ </a>
       <ul>
         <li><a href="https://youtu.be/dQw4w9WgXcQ"><strong>Home</strong></a></li>
         <li><a href="#episode"><strong>Episodes</strong></a></li>
@@ -17,10 +23,9 @@
         <li><a href="#schedule"><strong>Schedule</strong></a></li>
       </ul>
     </nav>
-    <h1>Podcast "Aqyryn Soile"</h1>
-    <p>A podcast that talks about topics that are not commonly discussed in Kazakhstan.</p>
   </header>
   <main>
+
     <section id="about" class="about-us">
   <div class="about-us-content">
     <h2>About Us</h2>
@@ -38,58 +43,114 @@
     <img src="images/icon.png" alt="icon of "Aqyryn soile" podcast">
   </div>
 </section>
-<section id = "episode">
-  <h2>Videos on our YouTube Channel</h2>
-  <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/H4F8Rr7_TfU" frameborder="0" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/PVuGQcXYqNY" frameborder="0" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/CDVg19sTXlo" frameborder="0" allowfullscreen></iframe>
+<section id="episode" class="container text-center">
+<h2>Videos on our YouTube Channel</h2>
+<div class="row">
+<div class="col-md-4">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/H4F8Rr7_TfU" frameborder="0" allowfullscreen></iframe>
   </div>
+</div>
+<div class="col-md-4">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PVuGQcXYqNY" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CDVg19sTXlo" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <p> </p>
+</div>
+<div class="col-12 d-flex justify-content-center">
+<a class="btn btn-danger btn-lg " href="videos.html" role="button">More Videos</a>
+</div>
+</div>
 </section>
-    <section>
-      <h2>Latest Episode: Domestic Violence in Kazakhstan</h2>
-      <audio controls>
-        <source src="audio/nuris1.mp3" type="audio/mpeg">
-        </audio>
-        <p>In this episode, we discuss the issue of domestic violence in Kazakhstan and what can be done to address it. Our guest is Nuris Kimsanbayev, a human rights activist who has been working to raise awareness about this issue.</p>
-        <article>
-          <h2>Episode Transcript: Domestic Violence in Kazakhstan</h2>
-          <p>Here's the transcript for our latest episode on domestic violence in Kazakhstan. We hope you find it informative and thought-provoking.</p>
-          <p><a href="https://www.washingtonpost.com/washington-post-live/2022/10/20/transcript-domestic-violence-shadow-pandemic/">
-             ... transcript content goes here ...</a></p>
-          <aside>
-            <blockquote>
-              <p><em>"No one is born hating another person because of the color of his skin, or his background, or his religion. People must learn to hate, and if they can learn to hate, they can be taught to love, for love comes more naturally to the human heart than its opposite." - Nelson Mandela</em></p>
-            </blockquote>
-          </aside>
-          <figure>
-            <img src="images/domestic-violence.jpg" alt="Domestic Violence">
-            <figcaption>A woman sitting alone with a black eye.</figcaption>
-          </figure>
-          <time datetime="2023-04-01">Published on April 1, 2023</time>
+<section class="container-fluid d-flex justify-content-center align-items-center">
+<div class="container text-center">
+<div class="container text-center">
+  <h2>Latest Episode: Domestic Violence in Kazakhstan</h2>
+  <audio controls>
+    <source src="audio/nuris1.mp3" type="audio/mpeg">
+  </audio>
+  <p>In this episode, we discuss the issue of domestic violence in Kazakhstan and what can be done to address it. Our guest is Nuris Kimsanbayev, a human rights activist who has been working to raise awareness about this issue.</p>
+  <article>
+    <h2>Episode Transcript: Domestic Violence in Kazakhstan</h2>
+    <p>Here's the transcript for our latest episode on domestic violence in Kazakhstan. We hope you find it informative and thought-provoking.</p>
+    <p><a href="https://www.washingtonpost.com/washington-post-live/2022/10/20/transcript-domestic-violence-shadow-pandemic/">
+         ... transcript content goes here ...</a></p>
+    <aside>
+      <blockquote>
+        <p><em>"No one is born hating another person because of the color of his skin, or his background, or his religion. People must learn to hate, and if they can learn to hate, they can be taught to love, for love comes more naturally to the human heart than its opposite." - Nelson Mandela</em></p>
+      </blockquote>
+    </aside>
+    <figure>
+      <img src="images/domestic-violence.jpg" alt="Domestic Violence" class="img-fluid">
+      <figcaption>A woman sitting alone with a black eye.</figcaption>
+    </figure>
+    <time datetime="2023-04-01">Published on April 1, 2023</time>
+    <ul>
+      <li>
+        <p><strong>Episode 1: Domestic Violence in Kazakhstan</strong></p>
+        <div class="progress">
+  <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+        <span>Rating: 9/10</span>
+        <details>
+          <summary>Show Notes</summary>
           <ul>
-          <progress value="1" max="10"></progress> Episode 1: Domestic Violence in Kazakhstan
-        </ul>
-        <ul>
-          <meter value="9" min="0" max="10"></meter> Episode 1 rating: 9/10
-        </ul>
-          <details>
-            <summary>Show Notes</summary>
-            <ul>
-              <li>Guest: Nurislam Turapbay</li>
-              <li>Resources: <a href="https://www.unwomen.org/en/digital-library/publications/2020/11/exploratory-study-on-prevalence-of-domestic-violence-in-kazakhstan">UN Women Kazakhstan: Exploratory Study on Prevalence of Domestic Violence in Kazakhstan</a></li>
-            </ul>
-          </details>
-        </article>
-      <section>
-        <h2>Other Topics We've Discussed</h2>
-        <ul>
-          <li>Women's Rights in Kazakhstan</li>
-          <li>Sexual Harassment in the Workplace</li>
-          <li>Feminism and Gender Equality</li>
-        </ul>
-      </section>
-    </section>
+            <li>Guest: Nurislam Turapbay</li>
+            <li>Resources: <a href="https://www.unwomen.org/en/digital-library/publications/2020/11/exploratory-study-on-prevalence-of-domestic-violence-in-kazakhstan">UN Women Kazakhstan: Exploratory Study on Prevalence of Domestic Violence in Kazakhstan</a></li>
+         </ul>
+   </details>
+  </div>
+ </div>
+</div>
+</section>
+ <section id="other-topics">
+  <div class="container text-center mx-auto">
+   <h2>Other Topics We've Discussed</h2>
+    <div class="row">
+     <div class="col-sm-4">
+      <div class="card">
+       <div class="card-body">
+        <h5 class="card-title">Women's Rights in Kazakhstan</h5>
+     <p class="card-text">In this episode, we talk about the challenges women face in Kazakhstan and the efforts being made to improve their rights and status in society.</p>
+    <a href="https://open.spotify.com/track/4cOdK2wGLETKBW3PvgPWqT?si=6934355fd1294d67" class="btn btn-danger">Listen Now</a>
+  </div>
+ </div>
+</div>
+<div class="col-sm-4">
+   <div class="card">
+    <div class="card-body">
+     <h5 class="card-title">Sexual Harassment in the Workplace</h5>
+      <p class="card-text">In this episode, we discuss the prevalence of sexual harassment in the workplace and what can be done to prevent it.</p>
+     <a href="https://open.spotify.com/track/4cOdK2wGLETKBW3PvgPWqT?si=6934355fd1294d67" class="btn btn-danger">Listen Now</a>
+   </div>
+ </div>
+</div>
+<div class="col-sm-4">
+ <div class="card">
+  <div class="card-body">
+   <h5 class="card-title">Feminism and Gender Equality</h5>
+    <p class="card-text">In this episode, we explore the meaning of feminism and the ongoing struggle for gender equality.</p>
+     <a href="https://open.spotify.com/track/4cOdK2wGLETKBW3PvgPWqT?si=6934355fd1294d67" class="btn btn-danger">Listen Now</a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+</section>
+<section>
+  <div class="jumbotron">
+  <h1 class="display-4"> Surveys on TikTok! </h1>
+  <p class="lead">Onces at week we make survey for our weeks topic!</p>
+  <hr class="my-4">
+  <p>It gives us more objective view to our theme and also we will know the opinion of our citizens.</p>
+  <a class="btn btn-danger btn-primary btn-lg " href="surveys.html" role="button">Learn more</a>
+</div>
+</section>
     <section>
       <table id="schedule">
   <thead>
@@ -142,7 +203,39 @@
       </li>
     </ul>
   </section>
-    <p>&copy; 2023 Aqyryn Soile. All rights reserved.</p>
+  <nav class="navl" aria-label="...">
+<ul class="pagination pagination-sm">
+  <li class="page-item active" aria-current="page">
+    <span class="page-link-danger">home</span>
+  </li>
+  <li class="page-item"><a class="page-link text-danger" href="videos.html">videos</a></li>
+  <li class="page-item"><a class="page-link text-danger" href="surveys.html">survey</a></li>
+</ul>
+</nav>
+</main>
+  <footer class="bg-dark text-white">
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Follow us on social media for updates:</p>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://youtu.be/dQw4w9WgXcQ"><i class="fab fa-facebook fa-lg text-white"></i></a></li>
+            <li class="list-inline-item"><a href="https://youtu.be/dQw4w9WgXcQ"><i class="fab fa-twitter fa-lg text-white"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/qadyrjan_.p/"><i class="fab fa-instagram fa-lg text-white"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <p class="text-md-right">Designed by <a href="https://www.instagram.com/qadyrjan_.p/" class="text-white">Qadyrjan</a></p>
+        </div>
+        <p>&copy; 2023 Aqyryn Soile. All rights reserved.</p>
+      </div>
+    </div>
+
   </footer>
+  <script src="https://kit.fontawesome.com/1b7f34b708.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-D0WCUmIj0Dx6pUXaKjw8ldwSkfaLv71CPsgGhjKxyyGsKnWkkQkHr1rAxdQ2ZvRj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
   </body>
   </html>

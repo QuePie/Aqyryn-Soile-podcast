@@ -7,13 +7,11 @@
 body {
   font-family: bradley hand, cursive;
   background-color: #b31818;
+  margin: 0;
+  padding: 0;
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
+
 
 header h1 {
   margin: 0;
@@ -58,7 +56,13 @@ main {
   margin: 0 auto;
   padding: 20px;
 }
-
+button{
+  text-align: center;
+  align-items: center;
+}
+div{
+  text-align: center;
+}
 .about-us {
   display: flex;
   flex-wrap: wrap;
@@ -212,3 +216,79 @@ label {
       padding: 8px;
     }
   }
+  .phone-wrapper {
+    position: relative;
+    margin-top: 2em;
+  }
+
+  .phone {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 177.77%; /* 16:9 aspect ratio */
+    overflow: hidden;
+  }
+
+  .phone:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+  }
+
+  .carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-inner {
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.navl{
+  position: fixed;
+  bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.page-link-danger {
+  color: white
+}
+.pagination li.active a {
+  background-color: red;
+  color: white;
+}
+
+    footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
